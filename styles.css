@@ -133,7 +133,9 @@ footer {
 }
 
 .card-img{
-  width: 300px;
+  display: flex;
+  flex-basis: 300px;
+  max-width: 300px;
 }
 
 .card img {
@@ -145,3 +147,8 @@ footer {
   object-fit: cover;
 }
 
+.right {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
