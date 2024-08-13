@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Odin CSS Project</title>
+  <link rel="stylesheet" href="new-styles.css">
     <!-- get the required files from 3rd party sources -->
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <!-- use the font -->
@@ -15,78 +15,70 @@
     </style>
 </head>
 <body>
-
-  <header class = "head-section1-wrapper">
-    <img src="./img/logo_640.png" alt="Header logo" class="logo">
-    <ul class="links">
-      <li><a href="#">header link one</a></li>
-      <li><a href="#">header link two</a></li>
-      <li><a href="#">header link three</a></li>
-    </ul>
-  </header>
-  <div class="body">
-    <div class = "head-section1-wrapper">
-      <section class="body-section-1">
-        <div class="left">
-          <h1>This website is awesome</h1>
-          <p>This website has some subtext that goes under the main title
-            smaller font and a lower contrest.</p>
-          <div class="button">
-            <button>Sign up</button>
-          </div>   
-        </div>
-        <div class="right">
-          <img src="img/1.png" alt="This is a placeholder for an image." width="250px">
-        </div>   
-      </section>
+  <section class="section1">
+    <div class="header">
+      <div class="header-left">
+        <h1>Header Logo</h1>
+      </div>
+      <div class="header-right">
+        <ul class="links">
+          <li><a href="#">header link one</a></li>
+          <li><a href="#">header link two</a></li>
+          <li><a href="#">header link three</a></li>
+        </ul>
+      </div>
     </div>
- 
-    <section class="random-info">
-      <div class="title-random-info">Some random information</div>
-      <div class="cards">
-        <div class="card">
-          <div class="card-img"> <img src="img/dirt-bike-2086046_640.jpg" alt="card1" class="img"></div>
-          <div class="card-subtext">  zzz zzzzzzzzz zzzzzzzf the card</div>
-        </div>
-        <div class="card">
-          <div class="card-img"> <img src="img/dirt-bike-330815_640.jpg" alt="card2" class="img"></div>
-          <div class="card-subtext"> This is ard</div>
-        </div>
-        <div class="card">
-          <div class="card-img"> <img src="img/motocross-1461530_640.jpg" alt="card3" class="img"></div>
-          <div class="card-subtext"> This is some subtext of the card</div>
-        </div>
-        <div class="card">
-          <div class="card-img"> <img src="img/motorbike-8142649_640.jpg" alt="card4" class="img"></div>
-          <div class="card-subtext"> This is some subtext of the card</div>
-        </div>
+    <div class="intro">
+      <div class="intro-left">
+        <h1>This website is awesome</h1>
+        <p>This website has some subtext that goes under the main title
+          smaller font and a lower contrest.</p>
+        <button>Sign up</button>
       </div>
-      
-    </section>
-    <section class="quote">
-      <div class="quote-wrapper">
-        <div class="quote-body">Cras euismod non odio quis faucibus. Morbi congue et sem aliquet maximus. Suspendisse at diam velit. Nam sed mattis justo. Ut porta mi vel sapien luctus, et sollicitudin purus sodales. Morbi justo ex, mollis eget auctor sed, placerat et dui. Nullam id enim vel lectus gravida imperdiet. Nullam viverra sed massa sed viverra. Curabitur neque odio, porta eu diam quis, malesuada tincidunt metus.</div>
-        <div class="quote-author">-Manuel Neuer</div>
-      </div>
-    </section>
-    <section class="signup">
-      <div class="signup-wrapper">
-        <div class="signup-left">
-          <div class="signup-main">Call for action ! It's time!</div>
-          <div class="signup-info">Signup for our products by clicking that button right over there!</div>
-          
-        </div>
-        <div class="signup-button">
-          <button>Sign up</button>
-        </div>
-      </div>
-      
+      <div class="intro-right">
+        <img src="img/1.png" alt="This is a placeholder for an image." width="250px">
+      </div>   
     </div>
   </section>
-  <footer>
-    <div class="copyright">
-      Copyright The Odin Project 2021
+  <section class="random-info">
+    <h1>Some random information</h1>
+    <div class="cards">
+      <div class="card">
+        <div class="card-img"> <img src="img/dirt-bike-2086046_640.jpg" alt="card1" class="img"></div>
+        <div class="card-subtext">  zzz zzzzzzzzz zzzzzzzf the card</div>
+      </div>
+      <div class="card">
+        <div class="card-img"> <img src="img/dirt-bike-330815_640.jpg" alt="card2" class="img"></div>
+        <div class="card-subtext"> This is Card</div>
+      </div>
+      <div class="card">
+        <div class="card-img"> <img src="img/motocross-1461530_640.jpg" alt="card3" class="img"></div>
+        <div class="card-subtext"> This is some subtext of the card</div>
+      </div>
+      <div class="card">
+        <div class="card-img"> <img src="img/motorbike-8142649_640.jpg" alt="card4" class="img"></div>
+        <div class="card-subtext"> This is some subtext of the card</div>
+      </div>
     </div>
+    
+  </section>
+
+  <section class="quote">
+    <div class="quote-wrapper">
+      <div class="quote-body">Cras euismod non odio quis faucibus. Morbi congue et sem aliquet maximus. Suspendisse at diam velit. Nam sed mattis justo. Ut porta mi vel sapien luctus, et sollicitudin purus sodales. Morbi justo ex, mollis eget auctor sed, placerat et dui. Nullam id enim vel lectus gravida imperdiet. Nullam viverra sed massa sed viverra. Curabitur neque odio, porta eu diam quis, malesuada tincidunt metus.</div>
+      <div class="quote-author">-James franco</div>
+    </div>
+  </section>
+
+  <section class="signup">
+      <div class="signup-left">
+        <div class="signup-main">Call for action ! It's time!</div>
+        <div class="signup-info">Signup for our products by clicking that button right over there!</div>
+      </div>
+      <button>Sign up</button>
+  </section>
+  <footer>
+      Copyright &copy The Odin Project 2021
   </footer>
 </body>
 </html>
